@@ -1,0 +1,45 @@
+[
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column scientificName",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "scientificName",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Amphispiza bilineata",
+          "  Amphispiza bilineata"
+        ],
+        "to": "Amphispiza bilineata"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column scientificName",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "scientificName",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Amphispiza bilineata",
+          "Emphispiza bilinata",
+          "Amphispiza cilineata  "
+        ],
+        "to": "Amphispiza bilineata"
+      }
+    ]
+  }
+]
